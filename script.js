@@ -45,3 +45,8 @@ function keyDownListener(event) {
         shrink();
     }
 };
+
+const tab2link = document.getElementById("tab2link");
+tab2link.addEventListener("click", event => disableLink(event));
+const tab3link = document.getElementById("tab3link");
+tab3link.addEventListener("click" , event => disableLink(event));
